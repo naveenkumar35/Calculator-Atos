@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+         <meta charset="utf-8">
+        <title>Calculator</title>
+        <script src="sol.js"></script> 
+	    <link rel="stylesheet" type="text/css" href="calcc.css">
+    </head>
+    <body>
+        
+        <div class="header">
+            <div class="container">
+            <h1>Online Calculator</h1>
+            <p ><img src="calc.jfif"width="30px" height="40px"></p>
+            
+            <nav>
+                <a href="standard.html" target="_blank">Standard</a>
+                <a href="calc.html" target="_blank">Scientific</a>
+                <a href="emi.html" target="_blank">EMI Calculation</a>
+                <a href="currency.html" target="_blank">Conversion</a>
+                <a href="https://en.wikipedia.org/wiki/Calculator" target="_blank">Wikipedia</a>
+            </nav>
+
+        </div>
+        </div>
+        <div>
+            <div class="center">
+            
+                <div class="displaybox">
+                    <div>
+                        <input type="text"  id="result" class="displaytext"  style="width: 765px; height: 70px;" style="border: 2px solid lightblue;" style="color: lightcoral;">
+                    </div>
+                    <div class="buttonss">
+                        <input type="button" value="Rad" onclick="dis('Math.rad(')" style="height:40px;width:90px">
+                        <input type="button" value="Deg" onclick="dis('Math.deg')" style="height:40px;width:90px">
+                        <input type="button" value="X!" onclick="dis('!')" style="height:40px;width:90px">
+                        <input type="button" value="(" onclick="dis('(')" style="height:40px;width:90px">
+                        <input type="button" value=")" onclick="dis(')')" style="height:40px;width:90px">
+                        <input type="button" value="%" onclick="dis('%')" style="height:40px;width:90px">
+                        <input type="button" value="AC" onclick="clr()" style="height:40px;width:90px">
+                        </br>
+                        <input type="button" value="Log10" onclick="dis('Math.log10(')" style="height:40px;width:90px">
+                        <input type="button" value="Sin" onclick="dis('Math.sin(')" style="height:40px;width:90px">
+                        <input type="button" value="In" onclick="dis('In')" style="height:40px;width:90px">
+                        <input type="button" value="7" onclick="dis('7')" style="height:40px;width:90px">
+                        <input type="button" value="8" onclick="dis('8')" style="height:40px;width:90px">
+                        <input type="button" value="9" onclick="dis('9')" style="height:40px;width:90px">
+                        <input type="button" value="/" onclick="dis('/')" style="height:40px;width:90px">
+                        </br>
+                        <input type="button" value="π" onclick="dis('3.14')" style="height:40px;width:90px">
+                        <input type="button" value="Cos" onclick="dis('Math.cos(')" style="height:40px;width:90px">
+                        <input type="button" value="Log" onclick="dis('Math.log(')" style="height:40px;width:90px">
+                        <input type="button" value="4" onclick="dis('4')"  style="height:40px;width:90px">
+                        <input type="button" value="5" onclick="dis('5')" style="height:40px;width:90px">
+                        <input type="button" value="6" onclick="dis('6')"  style="height:40px;width:90px">
+                        <input type="button" value="*" onclick="dis('*')"  style="height:40px;width:90px">
+                         </br>
+                        <input type="button" value="e" onclick="dis('Math.E')"  style="height:40px;width:90px">
+                        <input type="button" value="tan" onclick="dis('Math.tan(')"  style="height:40px;width:90px">
+                        <input type="button" value=" √" onclick="dis('Math.sqrt(')" style="height:40px;width:90px">
+                        <input type="button" value="1" onclick="dis('1')" style="height:40px;width:90px">
+                        <input type="button" value="2" onclick="dis('2')" style="height:40px;width:90px">
+                        <input type="button" value="3" onclick="dis('3')" style="height:40px;width:90px">
+                        <input type="button" value="-" onclick="dis('-')" style="height:40px;width:90px">
+                        </br>
+                        <input type="button" value="Ans" onclick="solve()" style="height:40px;width:90px">
+                        <input type="button" value="L2E" onclick="dis('Math.LOG2E')" style="height:40px;width:90px">
+                        <input type="button" value="X^Y" onclick="dis('Math.pow(')" style="height:40px;width:90px">
+                        <input type="button" value="0" onclick="dis('0')" style="height:40px;width:90px">
+                        <input type="button" value="." onclick="dis('.')" style="height:40px;width:90px">
+                        <input type="button" value="=" onclick="solve()"  style="height:40px;width:90px">
+                        <input type="button" value="+" onclick="dis('+')" style="height:40px;width:95px">
+                        
+     
+                    </div>
+                </div>
+                
+             </div>
+                   <div class="side">
+                       <div class="sidename">
+                           <!-- <p style="color:lightblue" style="text-size-adjust: 10px;">I M A G E</p> -->
+                           <img  src="calc.jfif" alt="calculator" width="300px" height="400px">
+                       </div>
+
+                   </div>
+            
+        </div>
+         
+        <div class="footer">
+            
+        </div>
+    </body>
+</html>
